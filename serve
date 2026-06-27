@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# ルートからワンコマンド起動
+exec "$(cd "$(dirname "$0")" && pwd)/CMO/media-tracker/scripts/serve.sh"

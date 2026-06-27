@@ -1,0 +1,361 @@
+{
+  "version": 3,
+  "updated": "2026-06-27",
+  "timezone": "Asia/Tokyo",
+  "effective_from": "2026-07-01",
+  "cadence": {
+    "monday": "note",
+    "tuesday": "medium",
+    "wednesday": "ronin_pop",
+    "thursday": "note",
+    "friday": [
+      "medium",
+      "kanri"
+    ]
+  },
+  "media": {
+    "note": {
+      "label": "30代パパフリーランスの朝日記",
+      "frequency": "2/week",
+      "publish_days": [
+        "monday",
+        "thursday"
+      ],
+      "default_publish_time": "07:00",
+      "owner": "Tak"
+    },
+    "medium": {
+      "label": "Medium（note英訳）",
+      "frequency": "2/week",
+      "publish_days": [
+        "tuesday",
+        "friday"
+      ],
+      "note_ref_rule": "直前の月曜 or 木曜 note を英訳",
+      "owner": "media-producer + Tak"
+    },
+    "ronin_pop": {
+      "label": "Ronin Pop",
+      "frequency": "1/week",
+      "publish_days": [
+        "wednesday"
+      ],
+      "owner": "Tak"
+    },
+    "kanri": {
+      "label": "みうらくんと管理人",
+      "frequency": "1/week",
+      "publish_days": [
+        "friday"
+      ],
+      "owner": "Tak"
+    }
+  },
+  "slots": [
+    {
+      "id": "2026-07-01-ronin_pop",
+      "date": "2026-07-01",
+      "day": "wednesday",
+      "media": "ronin_pop",
+      "status": "in_progress",
+      "progress": 80,
+      "topic": "7/1 Ronin Pop — 編集仕上げ残り",
+      "owner": "Tak",
+      "note": "キックオフ週。曜日固定運用の初回YouTube",
+      "complete_by": "2026-06-24"
+    },
+    {
+      "id": "2026-07-02-note",
+      "date": "2026-07-02",
+      "day": "thursday",
+      "media": "note",
+      "status": "draft_done",
+      "time": "07:00",
+      "topic": "原稿完成済み",
+      "owner": "Tak",
+      "complete_by": "2026-06-25"
+    },
+    {
+      "id": "2026-07-03-kanri",
+      "date": "2026-07-03",
+      "day": "friday",
+      "media": "kanri",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-06-26"
+    },
+    {
+      "id": "2026-07-03-medium",
+      "date": "2026-07-03",
+      "day": "friday",
+      "media": "medium",
+      "status": "needs_translation",
+      "note_ref": "2026-07-02",
+      "topic": "7/2 note の英訳",
+      "owner": "media-producer → Tak確認",
+      "note": "英訳すれば投稿可能",
+      "complete_by": "2026-06-26"
+    },
+    {
+      "id": "2026-07-06-note",
+      "date": "2026-07-06",
+      "day": "monday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-06-29"
+    },
+    {
+      "id": "2026-07-07-medium",
+      "date": "2026-07-07",
+      "day": "tuesday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-06",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-06-30"
+    },
+    {
+      "id": "2026-07-08-ronin_pop",
+      "date": "2026-07-08",
+      "day": "wednesday",
+      "media": "ronin_pop",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-01"
+    },
+    {
+      "id": "2026-07-09-note",
+      "date": "2026-07-09",
+      "day": "thursday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-02"
+    },
+    {
+      "id": "2026-07-10-kanri",
+      "date": "2026-07-10",
+      "day": "friday",
+      "media": "kanri",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-03"
+    },
+    {
+      "id": "2026-07-10-medium",
+      "date": "2026-07-10",
+      "day": "friday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-09",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-07-03"
+    },
+    {
+      "id": "2026-07-13-note",
+      "date": "2026-07-13",
+      "day": "monday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-06"
+    },
+    {
+      "id": "2026-07-14-medium",
+      "date": "2026-07-14",
+      "day": "tuesday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-13",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-07-07"
+    },
+    {
+      "id": "2026-07-15-ronin_pop",
+      "date": "2026-07-15",
+      "day": "wednesday",
+      "media": "ronin_pop",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-08"
+    },
+    {
+      "id": "2026-07-16-note",
+      "date": "2026-07-16",
+      "day": "thursday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-09"
+    },
+    {
+      "id": "2026-07-17-kanri",
+      "date": "2026-07-17",
+      "day": "friday",
+      "media": "kanri",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-10"
+    },
+    {
+      "id": "2026-07-17-medium",
+      "date": "2026-07-17",
+      "day": "friday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-16",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-07-10"
+    },
+    {
+      "id": "2026-07-20-note",
+      "date": "2026-07-20",
+      "day": "monday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-13"
+    },
+    {
+      "id": "2026-07-21-medium",
+      "date": "2026-07-21",
+      "day": "tuesday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-20",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-07-14"
+    },
+    {
+      "id": "2026-07-22-ronin_pop",
+      "date": "2026-07-22",
+      "day": "wednesday",
+      "media": "ronin_pop",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-15"
+    },
+    {
+      "id": "2026-07-23-note",
+      "date": "2026-07-23",
+      "day": "thursday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-16"
+    },
+    {
+      "id": "2026-07-24-kanri",
+      "date": "2026-07-24",
+      "day": "friday",
+      "media": "kanri",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-17"
+    },
+    {
+      "id": "2026-07-24-medium",
+      "date": "2026-07-24",
+      "day": "friday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-23",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-07-17"
+    },
+    {
+      "id": "2026-07-27-note",
+      "date": "2026-07-27",
+      "day": "monday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-20"
+    },
+    {
+      "id": "2026-07-28-medium",
+      "date": "2026-07-28",
+      "day": "tuesday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-27",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-07-21"
+    },
+    {
+      "id": "2026-07-29-ronin_pop",
+      "date": "2026-07-29",
+      "day": "wednesday",
+      "media": "ronin_pop",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-22"
+    },
+    {
+      "id": "2026-07-30-note",
+      "date": "2026-07-30",
+      "day": "thursday",
+      "media": "note",
+      "status": "planned",
+      "time": "07:00",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-23"
+    },
+    {
+      "id": "2026-07-31-kanri",
+      "date": "2026-07-31",
+      "day": "friday",
+      "media": "kanri",
+      "status": "planned",
+      "topic": "",
+      "owner": "Tak",
+      "complete_by": "2026-07-24"
+    },
+    {
+      "id": "2026-07-31-medium",
+      "date": "2026-07-31",
+      "day": "friday",
+      "media": "medium",
+      "status": "planned",
+      "note_ref": "2026-07-30",
+      "topic": "",
+      "owner": "media-producer → Tak確認",
+      "complete_by": "2026-07-24"
+    }
+  ],
+  "alerts": {
+    "complete_lead_days": 7,
+    "note": "全メディア共通：公開の1週間前までに投稿完了状態にする"
+  }
+}
